@@ -35,16 +35,17 @@ export default (
       opacity: 0.2,
       zIndex: 10
     },
-    menuContent: { position: 'absolute', width, left: 0, bottom: 0, zIndex: 11 },
+    menuContent: { position: 'absolute', width: width, left: 0, bottom: 0, zIndex: 11 },
     operateContainer: {
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: 'white',
-      height: 40,
-      borderBottomColor: '#ccc',
-      borderBottomWidth: 1
+      borderRadius: 15,
+      marginHorizontal: 15,
+      paddingVertical: 15,
+      marginBottom: 6,
     },
-    operateText: { color: '#333' },
+    operateText: { color: '#333', fontSize: 17 },
     loadingTouchable: { width, height },
     loadingContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
     arrowLeftContainer: { position: 'absolute', top: 0, bottom: 0, left: 0, justifyContent: 'center', zIndex: 13 },
