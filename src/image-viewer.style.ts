@@ -42,7 +42,7 @@ export default (
       backgroundColor: 'white',
       borderRadius: 15,
       marginHorizontal: 15,
-      paddingVertical: 15,
+      paddingVertical: 12,
       marginBottom: 6,
     },
     operateText: { color: '#333', fontSize: 17 },
