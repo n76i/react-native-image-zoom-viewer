@@ -665,7 +665,7 @@ export default class ImageViewer extends React.Component<Props, State> {
             onPress={this.handleLeaveMenu}
             style={this.styles.operateContainer}
           >
-            <Text style={this.styles.operateText}>{this.props.menuContext.cancel}</Text>
+            <Text style={[this.styles.operateText, {fontWeight: 'bold'}]}>{this.props.menuContext.cancel}</Text>
           </TouchableHighlight>
         </View>
       </View>
